@@ -1,11 +1,14 @@
 
 # Modelo Diferencial — História Térmica do Universo
 
-Este projeto implementa um modelo diferencial para estudar a evolução da temperatura da Radiação Cósmica de Fundo (CMB) durante a expansão do universo.
-O nosso objetivo foi modelar a dinâmica térmica da CMB utilizando:
-- **Solução analítica** baseada em coeficientes constantes.
-- **Aproximação numérica** pelo método de **Runge-Kutta de quarta ordem (RK4)**.
-O projeto inclui código para calcular ambas as soluções e gerar gráficos comparativos, permitindo validar o modelo e explorar diferentes parâmetros cosmológicos.
+Este projeto implementa um modelo diferencial para descrever a evolução da temperatura da Radiação Cósmica de Fundo (CMB) ao longo da expansão do Universo. A atividade foi proposta na disciplina de Equações Diferenciais, com o objetivo de aplicar métodos analíticos e numéricos a um sistema físico realista.
+
+O trabalho analisa a dinâmica térmica da CMB por meio de duas abordagens complementares:
+
+- **Solução analítica**, obtida a partir de uma equação diferencial linear com coeficientes constantes;
+- **Aproximação numérica**, calculada pelo método **Runge-Kutta de quarta ordem (RK4)**.
+
+Ambas as estratégias foram implementadas em Python, permitindo comparar os resultados, validar o comportamento do modelo e investigar a influência de diferentes parâmetros cosmológicos. Foram gerados gráficos que ilustram a evolução temporal da temperatura e as diferenças entre as abordagens analítica e numérica.
 
 ## Dependências
 - **Python 3.x**
@@ -13,7 +16,7 @@ O projeto inclui código para calcular ambas as soluções e gerar gráficos com
   - `numpy`
   - `matplotlib`
 
-## Sobre as Desenvolvedoras
+## Equipe de Desenvolvimento
 
 Este projeto foi desenvolvido por:
 
